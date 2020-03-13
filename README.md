@@ -47,6 +47,7 @@ For the LaTeX compilation, I recommend using pdflatex; this is actually the set 
 2. [silabus-rps-v01.pdf](https://github.com/ipguna/TIF-RPS2020/blob/master/silabus-rps-v01.pdf) - RPS template example in PDF (English only version)
 3. [silabus-rps-v01.tex](https://github.com/ipguna/TIF-RPS2020/blob/master/silabus-rps-v01.tex) - RPS LaTeX template (English only version)
 3. [UBCrestVertical.png](https://github.com/ipguna/TIF-RPS2020/blob/master/UBCrestVertical.png) - UB Crest / logo for use with the RPS LaTeX template 
+4. [Makefile](https://github.com/ipguna/TIF-RPS2020/blob/master/Makefile) - Makefile for LaTeX compilation
 
 ### Work in progress
 
