@@ -2,7 +2,6 @@
 RPS 2020 for UB-TIF
 
 This page contains the RPS (Rencana Pembelajaran Semester) / Syllabus for various courses offered starting from February 2020. RPS document template in LaTeX is also provided, along with the associated Makefile (for its compilation) and PDF results.
-
 &nbsp;<details><summary>TABLE OF CONTENT</summary>
 - [TIF-RPS2020](#tif-rps2020)
   * [How to Use](#how-to-use)
