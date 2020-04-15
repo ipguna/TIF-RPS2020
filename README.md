@@ -66,7 +66,7 @@ LaTeX compilation will results in some temporary files that might cluttered your
 
 ## Revision Notes: 20200415
 
-1. Update package: remove subfigure with subfig package
+1. Update package: remove subfigure with subfig package (acknowledgement: thanks @GPK for pointing this out)
 2. Update Makefile
 
 ## Revision Notes: 20200313
