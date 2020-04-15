@@ -7,7 +7,7 @@ This page contains the RPS (Rencana Pembelajaran Semester) / Syllabus for variou
 
 ### Download
 
-To use the document is this repository, there are several ways such as follows:
+To use the document in this repository, there are several ways such as follows:
 
 1. Download individual document by clicking the link for each document where you would be taken to a page showing the document and a button to download it
 
@@ -15,7 +15,7 @@ To use the document is this repository, there are several ways such as follows:
 
 3. Clone/download the whole repository using the download button on this page (see top right corner); you will be provided with the option to download the repo in a zip file. Once it is downloaded, unzip the file into your chosen folder in your computer. You will be able to start working on your own document immediately.
 
-### Writing and compiling RPS document
+### Writing the RPS document
 
 To write the RPS document, use the LaTeX template provided and edit it by filling in the appropriate sections/parts of the document. I recommend copy the RPS LaTeX template into different file with unique name for your RPS document, and working on that copied version of the document.
 
@@ -23,9 +23,11 @@ Many parts of the content are put into various macros definitions on the templat
 
 The outline of the course in the form of the table is given at the end of the document. The table is put in a landscape environment. To write out the table in a normal (portrait) environment, just comment out the landscape environment in the template. Note however that when this table is write out in the portrait environment, you have to re-adjust the width of the columns (I have used this in the DSP RPS file provided).  
 
+### Compiling
+
 To compile the document, you can use the Makefile provided. Use the command 
 
-> make [YOUR_RPS_FILENAME_WITHOUT_TEX]
+> make silabus
 
 from your terminal. 
 
@@ -33,11 +35,22 @@ Alternatively, you can always use the compile/build facility in your LaTeX IDE o
 
 For the LaTeX compilation, I recommend using pdflatex; this is actually the set I have writen in the Makefile provided. In that way, we can produce the PDF file directly from the LaTeX source.
 
+### Cleaning up
+
+LaTeX compilation will results in some temporary files that might cluttered your folder (e.g., files with extension *.out, *.aux, *log, and *.synctex.gz). To clean up the folder, use the Makefile provided with the following command from terminal:
+
+> make clean  
+
 ## To Do List
 
 - Put the content definition into separate LaTeX file
 - Bilingual version (English and Indonesian) on one file
 - Put the content definition into cvs file and use a shell script to read this file and put them into appropriate parts of the LaTeX template
+
+## Revision Notes: 20200415
+
+1. Update package: remove subfigure with subfig package
+2. Update Makefile
 
 ## Revision Notes: 20200313
 
