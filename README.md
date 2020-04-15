@@ -3,6 +3,23 @@ RPS 2020 for UB-TIF
 
 This page contains the RPS (Rencana Pembelajaran Semester) / Syllabus for various courses offered starting from February 2020. RPS document template in LaTeX is also provided, along with the associated Makefile (for its compilation) and PDF results.
 
+&nbsp;<details><summary>TABLE OF CONTENT</summary>
+- [TIF-RPS2020](#tif-rps2020)
+  * [How to Use](#how-to-use)
+    + [Download](#download)
+    + [Writing the RPS document](#writing-the-rps-document)
+    + [Compiling](#compiling)
+    + [Cleaning up](#cleaning-up)
+  * [To Do List](#to-do-list)
+  * [Revision Notes: 20200415](#revision-notes--20200415)
+  * [Revision Notes: 20200313](#revision-notes--20200313)
+    + [Uploaded](#uploaded)
+    + [Work in progress](#work-in-progress)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+&nbsp;</details>
+
+
 ## How to Use 
 
 ### Download
@@ -43,7 +60,7 @@ LaTeX compilation will results in some temporary files that might cluttered your
 
 ## To Do List
 
-- Put the content definition into separate LaTeX file
+- Put the content  definition into separate LaTeX file
 - Bilingual version (English and Indonesian) on one file
 - Put the content definition into cvs file and use a shell script to read this file and put them into appropriate parts of the LaTeX template
 
