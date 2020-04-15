@@ -34,7 +34,7 @@ To use the document in this repository, there are several ways such as follows:
 
 ### Writing the RPS document
 
-To write the RPS document, use the LaTeX template provided and edit it by filling in the appropriate sections/parts of the document. I recommend copy the RPS LaTeX template into different file with unique name for your RPS document, and working on that copied version of the document.
+To write the RPS document, use the LaTeX template provided (either `silabus-rps-v01.tex` or `silabus-testing.tex` works fine) and edit it by filling in the appropriate sections/parts of the document. I recommend copy the RPS LaTeX template into different file with unique name for your RPS document, and working on that copied version of the document.
 
 Many parts of the content are put into various macros definitions on the template. That way, you would not have to worry about the layout of the document; LaTeX will sort it out for you.
 
